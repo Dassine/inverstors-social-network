@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2384B5462012CD5400EB4320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B5452012CD5400EB4320 /* AppDelegate.swift */; };
+		2384B5482012CD5400EB4320 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B5472012CD5400EB4320 /* ViewController.swift */; };
+		2384B54B2012CD5400EB4320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2384B5492012CD5400EB4320 /* Main.storyboard */; };
+		2384B54E2012CD5400EB4320 /* inverstors_social_network.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2384B54C2012CD5400EB4320 /* inverstors_social_network.xcdatamodeld */; };
+		2384B5502012CD5400EB4320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2384B54F2012CD5400EB4320 /* Assets.xcassets */; };
+		2384B5532012CD5400EB4320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2384B5512012CD5400EB4320 /* LaunchScreen.storyboard */; };
+		2384B55E2012CD5400EB4320 /* inverstors_social_networkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B55D2012CD5400EB4320 /* inverstors_social_networkTests.swift */; };
+		2384B5692012CD5400EB4320 /* inverstors_social_networkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B5682012CD5400EB4320 /* inverstors_social_networkUITests.swift */; };
+		29C4FC1683CC47EF3093B669 /* Pods_inverstors_social_networkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D9E029FCC0AC31B0AC962C /* Pods_inverstors_social_networkUITests.framework */; };
+		6556999A26DCC58422918F7A /* Pods_inverstors_social_networkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDA41A9844751F9F01611BB /* Pods_inverstors_social_networkTests.framework */; };
+		AD53B349551AEEF1B7FE694F /* Pods_inverstors_social_network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7595B669F35C44576586665A /* Pods_inverstors_social_network.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2384B55A2012CD5400EB4320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2384B53A2012CD5400EB4320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2384B5412012CD5400EB4320;
+			remoteInfo = "inverstors-social-network";
+		};
+		2384B5652012CD5400EB4320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2384B53A2012CD5400EB4320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2384B5412012CD5400EB4320;
+			remoteInfo = "inverstors-social-network";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11C63AEE3A6C8117FF34A54B /* Pods-inverstors-social-networkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inverstors-social-networkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inverstors-social-networkUITests/Pods-inverstors-social-networkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2384B5422012CD5400EB4320 /* inverstors-social-network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inverstors-social-network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2384B5452012CD5400EB4320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2384B5472012CD5400EB4320 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2384B54A2012CD5400EB4320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2384B54D2012CD5400EB4320 /* inverstors_social_network.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = inverstors_social_network.xcdatamodel; sourceTree = "<group>"; };
+		2384B54F2012CD5400EB4320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2384B5522012CD5400EB4320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2384B5542012CD5400EB4320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2384B5592012CD5400EB4320 /* inverstors-social-networkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inverstors-social-networkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2384B55D2012CD5400EB4320 /* inverstors_social_networkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inverstors_social_networkTests.swift; sourceTree = "<group>"; };
+		2384B55F2012CD5400EB4320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2384B5642012CD5400EB4320 /* inverstors-social-networkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inverstors-social-networkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2384B5682012CD5400EB4320 /* inverstors_social_networkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inverstors_social_networkUITests.swift; sourceTree = "<group>"; };
+		2384B56A2012CD5400EB4320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED0D2F51F339E3FFC32FBAC /* Pods-inverstors-social-network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inverstors-social-network.release.xcconfig"; path = "Pods/Target Support Files/Pods-inverstors-social-network/Pods-inverstors-social-network.release.xcconfig"; sourceTree = "<group>"; };
+		49C2D98B3946A251C1388AB5 /* Pods-inverstors-social-networkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inverstors-social-networkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-inverstors-social-networkUITests/Pods-inverstors-social-networkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7595B669F35C44576586665A /* Pods_inverstors_social_network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inverstors_social_network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9126A2844478F9085AAABB02 /* Pods-inverstors-social-networkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inverstors-social-networkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-inverstors-social-networkTests/Pods-inverstors-social-networkTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8D9E029FCC0AC31B0AC962C /* Pods_inverstors_social_networkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inverstors_social_networkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA41A9844751F9F01611BB /* Pods_inverstors_social_networkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inverstors_social_networkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF354ABF8C5D9A5EE2202A57 /* Pods-inverstors-social-network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inverstors-social-network.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inverstors-social-network/Pods-inverstors-social-network.debug.xcconfig"; sourceTree = "<group>"; };
+		E0CE884F0588BB343EC15816 /* Pods-inverstors-social-networkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inverstors-social-networkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inverstors-social-networkTests/Pods-inverstors-social-networkTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2384B53F2012CD5400EB4320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD53B349551AEEF1B7FE694F /* Pods_inverstors_social_network.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384B5562012CD5400EB4320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6556999A26DCC58422918F7A /* Pods_inverstors_social_networkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384B5612012CD5400EB4320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C4FC1683CC47EF3093B669 /* Pods_inverstors_social_networkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040F6CF56FDB2B9447AC4080 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF354ABF8C5D9A5EE2202A57 /* Pods-inverstors-social-network.debug.xcconfig */,
+				3ED0D2F51F339E3FFC32FBAC /* Pods-inverstors-social-network.release.xcconfig */,
+				E0CE884F0588BB343EC15816 /* Pods-inverstors-social-networkTests.debug.xcconfig */,
+				9126A2844478F9085AAABB02 /* Pods-inverstors-social-networkTests.release.xcconfig */,
+				11C63AEE3A6C8117FF34A54B /* Pods-inverstors-social-networkUITests.debug.xcconfig */,
+				49C2D98B3946A251C1388AB5 /* Pods-inverstors-social-networkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C3E039EC602BA00E69E0A89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7595B669F35C44576586665A /* Pods_inverstors_social_network.framework */,
+				CEDA41A9844751F9F01611BB /* Pods_inverstors_social_networkTests.framework */,
+				C8D9E029FCC0AC31B0AC962C /* Pods_inverstors_social_networkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2384B5392012CD5400EB4320 = {
+			isa = PBXGroup;
+			children = (
+				2384B5442012CD5400EB4320 /* inverstors-social-network */,
+				2384B55C2012CD5400EB4320 /* inverstors-social-networkTests */,
+				2384B5672012CD5400EB4320 /* inverstors-social-networkUITests */,
+				2384B5432012CD5400EB4320 /* Products */,
+				040F6CF56FDB2B9447AC4080 /* Pods */,
+				1C3E039EC602BA00E69E0A89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2384B5432012CD5400EB4320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2384B5422012CD5400EB4320 /* inverstors-social-network.app */,
+				2384B5592012CD5400EB4320 /* inverstors-social-networkTests.xctest */,
+				2384B5642012CD5400EB4320 /* inverstors-social-networkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2384B5442012CD5400EB4320 /* inverstors-social-network */ = {
+			isa = PBXGroup;
+			children = (
+				2384B5452012CD5400EB4320 /* AppDelegate.swift */,
+				2384B5472012CD5400EB4320 /* ViewController.swift */,
+				2384B5492012CD5400EB4320 /* Main.storyboard */,
+				2384B54F2012CD5400EB4320 /* Assets.xcassets */,
+				2384B5512012CD5400EB4320 /* LaunchScreen.storyboard */,
+				2384B5542012CD5400EB4320 /* Info.plist */,
+				2384B54C2012CD5400EB4320 /* inverstors_social_network.xcdatamodeld */,
+			);
+			path = "inverstors-social-network";
+			sourceTree = "<group>";
+		};
+		2384B55C2012CD5400EB4320 /* inverstors-social-networkTests */ = {
+			isa = PBXGroup;
+			children = (
+				2384B55D2012CD5400EB4320 /* inverstors_social_networkTests.swift */,
+				2384B55F2012CD5400EB4320 /* Info.plist */,
+			);
+			path = "inverstors-social-networkTests";
+			sourceTree = "<group>";
+		};
+		2384B5672012CD5400EB4320 /* inverstors-social-networkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2384B5682012CD5400EB4320 /* inverstors_social_networkUITests.swift */,
+				2384B56A2012CD5400EB4320 /* Info.plist */,
+			);
+			path = "inverstors-social-networkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2384B5412012CD5400EB4320 /* inverstors-social-network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2384B56D2012CD5400EB4320 /* Build configuration list for PBXNativeTarget "inverstors-social-network" */;
+			buildPhases = (
+				43804E89295EF9662BAC4479 /* [CP] Check Pods Manifest.lock */,
+				2384B53E2012CD5400EB4320 /* Sources */,
+				2384B53F2012CD5400EB4320 /* Frameworks */,
+				2384B5402012CD5400EB4320 /* Resources */,
+				93FB07AFA4034A7866E3F915 /* [CP] Embed Pods Frameworks */,
+				3F72A753BC266C0BFD4CA870 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "inverstors-social-network";
+			productName = "inverstors-social-network";
+			productReference = 2384B5422012CD5400EB4320 /* inverstors-social-network.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2384B5582012CD5400EB4320 /* inverstors-social-networkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2384B5702012CD5400EB4320 /* Build configuration list for PBXNativeTarget "inverstors-social-networkTests" */;
+			buildPhases = (
+				67D0F9D2F582E3BA7CFFF159 /* [CP] Check Pods Manifest.lock */,
+				2384B5552012CD5400EB4320 /* Sources */,
+				2384B5562012CD5400EB4320 /* Frameworks */,
+				2384B5572012CD5400EB4320 /* Resources */,
+				E392A46AC102A95047E5E9CD /* [CP] Embed Pods Frameworks */,
+				61FD9EF8F3BE512612B8B14E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2384B55B2012CD5400EB4320 /* PBXTargetDependency */,
+			);
+			name = "inverstors-social-networkTests";
+			productName = "inverstors-social-networkTests";
+			productReference = 2384B5592012CD5400EB4320 /* inverstors-social-networkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2384B5632012CD5400EB4320 /* inverstors-social-networkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2384B5732012CD5400EB4320 /* Build configuration list for PBXNativeTarget "inverstors-social-networkUITests" */;
+			buildPhases = (
+				0BCF37DB08B426079186FDB2 /* [CP] Check Pods Manifest.lock */,
+				2384B5602012CD5400EB4320 /* Sources */,
+				2384B5612012CD5400EB4320 /* Frameworks */,
+				2384B5622012CD5400EB4320 /* Resources */,
+				8D4A89A2FFE87A49778B0EC1 /* [CP] Embed Pods Frameworks */,
+				FF8912E8C7D5A4038A6D24AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2384B5662012CD5400EB4320 /* PBXTargetDependency */,
+			);
+			name = "inverstors-social-networkUITests";
+			productName = "inverstors-social-networkUITests";
+			productReference = 2384B5642012CD5400EB4320 /* inverstors-social-networkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2384B53A2012CD5400EB4320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Lilia Dassine BELAID";
+				TargetAttributes = {
+					2384B5412012CD5400EB4320 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2384B5582012CD5400EB4320 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2384B5412012CD5400EB4320;
+					};
+					2384B5632012CD5400EB4320 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2384B5412012CD5400EB4320;
+					};
+				};
+			};
+			buildConfigurationList = 2384B53D2012CD5400EB4320 /* Build configuration list for PBXProject "inverstors-social-network" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2384B5392012CD5400EB4320;
+			productRefGroup = 2384B5432012CD5400EB4320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2384B5412012CD5400EB4320 /* inverstors-social-network */,
+				2384B5582012CD5400EB4320 /* inverstors-social-networkTests */,
+				2384B5632012CD5400EB4320 /* inverstors-social-networkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2384B5402012CD5400EB4320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2384B5532012CD5400EB4320 /* LaunchScreen.storyboard in Resources */,
+				2384B5502012CD5400EB4320 /* Assets.xcassets in Resources */,
+				2384B54B2012CD5400EB4320 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384B5572012CD5400EB4320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384B5622012CD5400EB4320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BCF37DB08B426079186FDB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inverstors-social-networkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F72A753BC266C0BFD4CA870 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-inverstors-social-network/Pods-inverstors-social-network-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43804E89295EF9662BAC4479 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inverstors-social-network-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61FD9EF8F3BE512612B8B14E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-inverstors-social-networkTests/Pods-inverstors-social-networkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D0F9D2F582E3BA7CFFF159 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inverstors-social-networkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D4A89A2FFE87A49778B0EC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-inverstors-social-networkUITests/Pods-inverstors-social-networkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93FB07AFA4034A7866E3F915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-inverstors-social-network/Pods-inverstors-social-network-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-inverstors-social-network/Pods-inverstors-social-network-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E392A46AC102A95047E5E9CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-inverstors-social-networkTests/Pods-inverstors-social-networkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF8912E8C7D5A4038A6D24AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-inverstors-social-networkUITests/Pods-inverstors-social-networkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2384B53E2012CD5400EB4320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2384B54E2012CD5400EB4320 /* inverstors_social_network.xcdatamodeld in Sources */,
+				2384B5482012CD5400EB4320 /* ViewController.swift in Sources */,
+				2384B5462012CD5400EB4320 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384B5552012CD5400EB4320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2384B55E2012CD5400EB4320 /* inverstors_social_networkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384B5602012CD5400EB4320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2384B5692012CD5400EB4320 /* inverstors_social_networkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2384B55B2012CD5400EB4320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2384B5412012CD5400EB4320 /* inverstors-social-network */;
+			targetProxy = 2384B55A2012CD5400EB4320 /* PBXContainerItemProxy */;
+		};
+		2384B5662012CD5400EB4320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2384B5412012CD5400EB4320 /* inverstors-social-network */;
+			targetProxy = 2384B5652012CD5400EB4320 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2384B5492012CD5400EB4320 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2384B54A2012CD5400EB4320 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2384B5512012CD5400EB4320 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2384B5522012CD5400EB4320 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2384B56B2012CD5400EB4320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2384B56C2012CD5400EB4320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2384B56E2012CD5400EB4320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF354ABF8C5D9A5EE2202A57 /* Pods-inverstors-social-network.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ5H36ADAP;
+				INFOPLIST_FILE = "inverstors-social-network/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seekers-Capital.inverstors-social-network";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2384B56F2012CD5400EB4320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED0D2F51F339E3FFC32FBAC /* Pods-inverstors-social-network.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ5H36ADAP;
+				INFOPLIST_FILE = "inverstors-social-network/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seekers-Capital.inverstors-social-network";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2384B5712012CD5400EB4320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0CE884F0588BB343EC15816 /* Pods-inverstors-social-networkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ5H36ADAP;
+				INFOPLIST_FILE = "inverstors-social-networkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seekers-Capital.inverstors-social-networkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inverstors-social-network.app/inverstors-social-network";
+			};
+			name = Debug;
+		};
+		2384B5722012CD5400EB4320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9126A2844478F9085AAABB02 /* Pods-inverstors-social-networkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ5H36ADAP;
+				INFOPLIST_FILE = "inverstors-social-networkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seekers-Capital.inverstors-social-networkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inverstors-social-network.app/inverstors-social-network";
+			};
+			name = Release;
+		};
+		2384B5742012CD5400EB4320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C63AEE3A6C8117FF34A54B /* Pods-inverstors-social-networkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ5H36ADAP;
+				INFOPLIST_FILE = "inverstors-social-networkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seekers-Capital.inverstors-social-networkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "inverstors-social-network";
+			};
+			name = Debug;
+		};
+		2384B5752012CD5400EB4320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C2D98B3946A251C1388AB5 /* Pods-inverstors-social-networkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ5H36ADAP;
+				INFOPLIST_FILE = "inverstors-social-networkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seekers-Capital.inverstors-social-networkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "inverstors-social-network";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2384B53D2012CD5400EB4320 /* Build configuration list for PBXProject "inverstors-social-network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2384B56B2012CD5400EB4320 /* Debug */,
+				2384B56C2012CD5400EB4320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2384B56D2012CD5400EB4320 /* Build configuration list for PBXNativeTarget "inverstors-social-network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2384B56E2012CD5400EB4320 /* Debug */,
+				2384B56F2012CD5400EB4320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2384B5702012CD5400EB4320 /* Build configuration list for PBXNativeTarget "inverstors-social-networkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2384B5712012CD5400EB4320 /* Debug */,
+				2384B5722012CD5400EB4320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2384B5732012CD5400EB4320 /* Build configuration list for PBXNativeTarget "inverstors-social-networkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2384B5742012CD5400EB4320 /* Debug */,
+				2384B5752012CD5400EB4320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2384B54C2012CD5400EB4320 /* inverstors_social_network.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2384B54D2012CD5400EB4320 /* inverstors_social_network.xcdatamodel */,
+			);
+			currentVersion = 2384B54D2012CD5400EB4320 /* inverstors_social_network.xcdatamodel */;
+			path = inverstors_social_network.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2384B53A2012CD5400EB4320 /* Project object */;
+}
