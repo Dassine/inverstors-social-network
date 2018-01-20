@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2384B5462012CD5400EB4320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B5452012CD5400EB4320 /* AppDelegate.swift */; };
-		2384B5482012CD5400EB4320 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B5472012CD5400EB4320 /* ViewController.swift */; };
 		2384B54B2012CD5400EB4320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2384B5492012CD5400EB4320 /* Main.storyboard */; };
 		2384B54E2012CD5400EB4320 /* inverstors_social_network.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2384B54C2012CD5400EB4320 /* inverstors_social_network.xcdatamodeld */; };
 		2384B5502012CD5400EB4320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2384B54F2012CD5400EB4320 /* Assets.xcassets */; };
 		2384B5532012CD5400EB4320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2384B5512012CD5400EB4320 /* LaunchScreen.storyboard */; };
 		2384B55E2012CD5400EB4320 /* inverstors_social_networkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B55D2012CD5400EB4320 /* inverstors_social_networkTests.swift */; };
 		2384B5692012CD5400EB4320 /* inverstors_social_networkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B5682012CD5400EB4320 /* inverstors_social_networkUITests.swift */; };
+		2384B57C2012D03800EB4320 /* InstrumentMarketPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B57B2012D03800EB4320 /* InstrumentMarketPriceViewController.swift */; };
+		2384B57E2012D06800EB4320 /* InstrumentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B57D2012D06800EB4320 /* InstrumentsTableViewController.swift */; };
 		29C4FC1683CC47EF3093B669 /* Pods_inverstors_social_networkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D9E029FCC0AC31B0AC962C /* Pods_inverstors_social_networkUITests.framework */; };
 		6556999A26DCC58422918F7A /* Pods_inverstors_social_networkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDA41A9844751F9F01611BB /* Pods_inverstors_social_networkTests.framework */; };
 		AD53B349551AEEF1B7FE694F /* Pods_inverstors_social_network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7595B669F35C44576586665A /* Pods_inverstors_social_network.framework */; };
@@ -41,7 +42,6 @@
 		11C63AEE3A6C8117FF34A54B /* Pods-inverstors-social-networkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inverstors-social-networkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inverstors-social-networkUITests/Pods-inverstors-social-networkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2384B5422012CD5400EB4320 /* inverstors-social-network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inverstors-social-network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2384B5452012CD5400EB4320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2384B5472012CD5400EB4320 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2384B54A2012CD5400EB4320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2384B54D2012CD5400EB4320 /* inverstors_social_network.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = inverstors_social_network.xcdatamodel; sourceTree = "<group>"; };
 		2384B54F2012CD5400EB4320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		2384B5642012CD5400EB4320 /* inverstors-social-networkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inverstors-social-networkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2384B5682012CD5400EB4320 /* inverstors_social_networkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inverstors_social_networkUITests.swift; sourceTree = "<group>"; };
 		2384B56A2012CD5400EB4320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2384B57B2012D03800EB4320 /* InstrumentMarketPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentMarketPriceViewController.swift; sourceTree = "<group>"; };
+		2384B57D2012D06800EB4320 /* InstrumentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentsTableViewController.swift; sourceTree = "<group>"; };
 		3ED0D2F51F339E3FFC32FBAC /* Pods-inverstors-social-network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inverstors-social-network.release.xcconfig"; path = "Pods/Target Support Files/Pods-inverstors-social-network/Pods-inverstors-social-network.release.xcconfig"; sourceTree = "<group>"; };
 		49C2D98B3946A251C1388AB5 /* Pods-inverstors-social-networkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inverstors-social-networkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-inverstors-social-networkUITests/Pods-inverstors-social-networkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7595B669F35C44576586665A /* Pods_inverstors_social_network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inverstors_social_network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,13 +141,14 @@
 		2384B5442012CD5400EB4320 /* inverstors-social-network */ = {
 			isa = PBXGroup;
 			children = (
+				2384B5762012CFFE00EB4320 /* Categories */,
+				2384B57A2012CFFF00EB4320 /* Models */,
+				2384B5782012CFFF00EB4320 /* View Controllers */,
+				2384B5792012CFFF00EB4320 /* Views */,
+				2384B5772012CFFE00EB4320 /* Resources */,
 				2384B5452012CD5400EB4320 /* AppDelegate.swift */,
-				2384B5472012CD5400EB4320 /* ViewController.swift */,
 				2384B5492012CD5400EB4320 /* Main.storyboard */,
-				2384B54F2012CD5400EB4320 /* Assets.xcassets */,
 				2384B5512012CD5400EB4320 /* LaunchScreen.storyboard */,
-				2384B5542012CD5400EB4320 /* Info.plist */,
-				2384B54C2012CD5400EB4320 /* inverstors_social_network.xcdatamodeld */,
 			);
 			path = "inverstors-social-network";
 			sourceTree = "<group>";
@@ -166,6 +169,51 @@
 				2384B56A2012CD5400EB4320 /* Info.plist */,
 			);
 			path = "inverstors-social-networkUITests";
+			sourceTree = "<group>";
+		};
+		2384B5762012CFFE00EB4320 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			path = Classes/Categories;
+			sourceTree = "<group>";
+		};
+		2384B5772012CFFE00EB4320 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2384B54F2012CD5400EB4320 /* Assets.xcassets */,
+				2384B5542012CD5400EB4320 /* Info.plist */,
+				2384B54C2012CD5400EB4320 /* inverstors_social_network.xcdatamodeld */,
+			);
+			name = Resources;
+			path = Classes/Resources;
+			sourceTree = "<group>";
+		};
+		2384B5782012CFFF00EB4320 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2384B57B2012D03800EB4320 /* InstrumentMarketPriceViewController.swift */,
+				2384B57D2012D06800EB4320 /* InstrumentsTableViewController.swift */,
+			);
+			name = "View Controllers";
+			path = "Classes/View Controllers";
+			sourceTree = "<group>";
+		};
+		2384B5792012CFFF00EB4320 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = Classes/Views;
+			sourceTree = "<group>";
+		};
+		2384B57A2012CFFF00EB4320 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = Classes/Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,8 +510,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2384B54E2012CD5400EB4320 /* inverstors_social_network.xcdatamodeld in Sources */,
-				2384B5482012CD5400EB4320 /* ViewController.swift in Sources */,
 				2384B5462012CD5400EB4320 /* AppDelegate.swift in Sources */,
+				2384B57E2012D06800EB4320 /* InstrumentsTableViewController.swift in Sources */,
+				2384B57C2012D03800EB4320 /* InstrumentMarketPriceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,7 +681,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GQ5H36ADAP;
-				INFOPLIST_FILE = "inverstors-social-network/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/inverstors-social-network/Classes/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Seekers-Capital.inverstors-social-network";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -648,7 +697,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GQ5H36ADAP;
-				INFOPLIST_FILE = "inverstors-social-network/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/inverstors-social-network/Classes/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Seekers-Capital.inverstors-social-network";
 				PRODUCT_NAME = "$(TARGET_NAME)";
