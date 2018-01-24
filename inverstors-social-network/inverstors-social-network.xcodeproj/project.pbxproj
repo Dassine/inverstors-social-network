@@ -16,6 +16,21 @@
 		2384B5692012CD5400EB4320 /* inverstors_social_networkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B5682012CD5400EB4320 /* inverstors_social_networkUITests.swift */; };
 		2384B57C2012D03800EB4320 /* InstrumentMarketPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B57B2012D03800EB4320 /* InstrumentMarketPriceViewController.swift */; };
 		2384B57E2012D06800EB4320 /* InstrumentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B57D2012D06800EB4320 /* InstrumentsTableViewController.swift */; };
+		2384B5802012D81000EB4320 /* InstrumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384B57F2012D81000EB4320 /* InstrumentTableViewCell.swift */; };
+		23979A0C2017CEBE001C3C09 /* UIColor+FlatColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239799FC2017CEBE001C3C09 /* UIColor+FlatColors.swift */; };
+		23979A0D2017CEBE001C3C09 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239799FD2017CEBE001C3C09 /* UIColor+Hex.swift */; };
+		23979A0E2017CEBE001C3C09 /* UIImage+Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239799FE2017CEBE001C3C09 /* UIImage+Background.swift */; };
+		23979A0F2017CEBE001C3C09 /* UILabel+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239799FF2017CEBE001C3C09 /* UILabel+Color.swift */; };
+		23979A102017CEBE001C3C09 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23979A022017CEBE001C3C09 /* CoreDataStack.swift */; };
+		23979A122017CEBE001C3C09 /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23979A052017CEBE001C3C09 /* JSONReader.swift */; };
+		23979A132017CEBE001C3C09 /* QuandlAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23979A0A2017CEBE001C3C09 /* QuandlAPIClient.swift */; };
+		23979A142017CEBE001C3C09 /* QuandlAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23979A0B2017CEBE001C3C09 /* QuandlAPIRequest.swift */; };
+		23979A162017CEEB001C3C09 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23979A152017CEEB001C3C09 /* LoadingView.swift */; };
+		23979A182017D507001C3C09 /* CALayer+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23979A172017D507001C3C09 /* CALayer+Gradient.swift */; };
+		23D22E522016AF3B003D5863 /* StockQuotePeriod+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D22E4E2016AF3A003D5863 /* StockQuotePeriod+CoreDataClass.swift */; };
+		23D22E532016AF3B003D5863 /* DailyQuoteSummary+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D22E4F2016AF3B003D5863 /* DailyQuoteSummary+CoreDataClass.swift */; };
+		23D22E542016AF3B003D5863 /* DailyQuoteSummary+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D22E502016AF3B003D5863 /* DailyQuoteSummary+CoreDataProperties.swift */; };
+		23D22E552016AF3B003D5863 /* StockQuotePeriod+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D22E512016AF3B003D5863 /* StockQuotePeriod+CoreDataProperties.swift */; };
 		29C4FC1683CC47EF3093B669 /* Pods_inverstors_social_networkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D9E029FCC0AC31B0AC962C /* Pods_inverstors_social_networkUITests.framework */; };
 		6556999A26DCC58422918F7A /* Pods_inverstors_social_networkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDA41A9844751F9F01611BB /* Pods_inverstors_social_networkTests.framework */; };
 		AD53B349551AEEF1B7FE694F /* Pods_inverstors_social_network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7595B669F35C44576586665A /* Pods_inverstors_social_network.framework */; };
@@ -55,6 +70,31 @@
 		2384B56A2012CD5400EB4320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2384B57B2012D03800EB4320 /* InstrumentMarketPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentMarketPriceViewController.swift; sourceTree = "<group>"; };
 		2384B57D2012D06800EB4320 /* InstrumentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentsTableViewController.swift; sourceTree = "<group>"; };
+		2384B57F2012D81000EB4320 /* InstrumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentTableViewCell.swift; sourceTree = "<group>"; };
+		239799FC2017CEBE001C3C09 /* UIColor+FlatColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+FlatColors.swift"; sourceTree = "<group>"; };
+		239799FD2017CEBE001C3C09 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		239799FE2017CEBE001C3C09 /* UIImage+Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Background.swift"; sourceTree = "<group>"; };
+		239799FF2017CEBE001C3C09 /* UILabel+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Color.swift"; sourceTree = "<group>"; };
+		23979A022017CEBE001C3C09 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		23979A052017CEBE001C3C09 /* JSONReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONReader.swift; sourceTree = "<group>"; };
+		23979A0A2017CEBE001C3C09 /* QuandlAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuandlAPIClient.swift; sourceTree = "<group>"; };
+		23979A0B2017CEBE001C3C09 /* QuandlAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuandlAPIRequest.swift; sourceTree = "<group>"; };
+		23979A152017CEEB001C3C09 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		23979A172017D507001C3C09 /* CALayer+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Gradient.swift"; sourceTree = "<group>"; };
+		23D22E1220141D75003D5863 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		23D22E1320141D75003D5863 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		23D22E1420141D76003D5863 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		23D22E1520141D76003D5863 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		23D22E1620141D76003D5863 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		23D22E1720141D76003D5863 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		23D22E1820141D76003D5863 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		23D22E1920141D76003D5863 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		23D22E1A20141D77003D5863 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		23D22E1B20141D77003D5863 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		23D22E4E2016AF3A003D5863 /* StockQuotePeriod+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StockQuotePeriod+CoreDataClass.swift"; sourceTree = "<group>"; };
+		23D22E4F2016AF3B003D5863 /* DailyQuoteSummary+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DailyQuoteSummary+CoreDataClass.swift"; sourceTree = "<group>"; };
+		23D22E502016AF3B003D5863 /* DailyQuoteSummary+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DailyQuoteSummary+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		23D22E512016AF3B003D5863 /* StockQuotePeriod+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StockQuotePeriod+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3ED0D2F51F339E3FFC32FBAC /* Pods-inverstors-social-network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inverstors-social-network.release.xcconfig"; path = "Pods/Target Support Files/Pods-inverstors-social-network/Pods-inverstors-social-network.release.xcconfig"; sourceTree = "<group>"; };
 		49C2D98B3946A251C1388AB5 /* Pods-inverstors-social-networkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inverstors-social-networkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-inverstors-social-networkUITests/Pods-inverstors-social-networkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7595B669F35C44576586665A /* Pods_inverstors_social_network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inverstors_social_network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +156,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2345CA182013B66500F5641D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2345CA192013B66C00F5641D /* Lato */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2345CA192013B66C00F5641D /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				23D22E1B20141D77003D5863 /* Lato-Black.ttf */,
+				23D22E1520141D76003D5863 /* Lato-BlackItalic.ttf */,
+				23D22E1420141D76003D5863 /* Lato-Bold.ttf */,
+				23D22E1920141D76003D5863 /* Lato-BoldItalic.ttf */,
+				23D22E1820141D76003D5863 /* Lato-Hairline.ttf */,
+				23D22E1720141D76003D5863 /* Lato-HairlineItalic.ttf */,
+				23D22E1320141D75003D5863 /* Lato-Italic.ttf */,
+				23D22E1A20141D77003D5863 /* Lato-Light.ttf */,
+				23D22E1620141D76003D5863 /* Lato-LightItalic.ttf */,
+				23D22E1220141D75003D5863 /* Lato-Regular.ttf */,
+			);
+			path = Lato;
+			sourceTree = "<group>";
+		};
 		2384B5392012CD5400EB4320 = {
 			isa = PBXGroup;
 			children = (
@@ -141,10 +206,10 @@
 		2384B5442012CD5400EB4320 /* inverstors-social-network */ = {
 			isa = PBXGroup;
 			children = (
-				2384B5762012CFFE00EB4320 /* Categories */,
 				2384B57A2012CFFF00EB4320 /* Models */,
-				2384B5782012CFFF00EB4320 /* View Controllers */,
 				2384B5792012CFFF00EB4320 /* Views */,
+				2384B5782012CFFF00EB4320 /* Controllers */,
+				239799FA2017CEBE001C3C09 /* Helpers */,
 				2384B5772012CFFE00EB4320 /* Resources */,
 				2384B5452012CD5400EB4320 /* AppDelegate.swift */,
 				2384B5492012CD5400EB4320 /* Main.storyboard */,
@@ -171,17 +236,10 @@
 			path = "inverstors-social-networkUITests";
 			sourceTree = "<group>";
 		};
-		2384B5762012CFFE00EB4320 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Categories;
-			path = Classes/Categories;
-			sourceTree = "<group>";
-		};
 		2384B5772012CFFE00EB4320 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2345CA182013B66500F5641D /* Fonts */,
 				2384B54F2012CD5400EB4320 /* Assets.xcassets */,
 				2384B5542012CD5400EB4320 /* Info.plist */,
 				2384B54C2012CD5400EB4320 /* inverstors_social_network.xcdatamodeld */,
@@ -190,19 +248,21 @@
 			path = Classes/Resources;
 			sourceTree = "<group>";
 		};
-		2384B5782012CFFF00EB4320 /* View Controllers */ = {
+		2384B5782012CFFF00EB4320 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2384B57B2012D03800EB4320 /* InstrumentMarketPriceViewController.swift */,
 				2384B57D2012D06800EB4320 /* InstrumentsTableViewController.swift */,
+				2384B57B2012D03800EB4320 /* InstrumentMarketPriceViewController.swift */,
 			);
-			name = "View Controllers";
-			path = "Classes/View Controllers";
+			name = Controllers;
+			path = Classes/Controllers;
 			sourceTree = "<group>";
 		};
 		2384B5792012CFFF00EB4320 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2384B57F2012D81000EB4320 /* InstrumentTableViewCell.swift */,
+				23979A152017CEEB001C3C09 /* LoadingView.swift */,
 			);
 			name = Views;
 			path = Classes/Views;
@@ -211,9 +271,70 @@
 		2384B57A2012CFFF00EB4320 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				23D22E4F2016AF3B003D5863 /* DailyQuoteSummary+CoreDataClass.swift */,
+				23D22E502016AF3B003D5863 /* DailyQuoteSummary+CoreDataProperties.swift */,
+				23D22E4E2016AF3A003D5863 /* StockQuotePeriod+CoreDataClass.swift */,
+				23D22E512016AF3B003D5863 /* StockQuotePeriod+CoreDataProperties.swift */,
 			);
 			name = Models;
 			path = Classes/Models;
+			sourceTree = "<group>";
+		};
+		239799FA2017CEBE001C3C09 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				239799FB2017CEBE001C3C09 /* Extensions */,
+				23979A002017CEBE001C3C09 /* Managers */,
+			);
+			name = Helpers;
+			path = Classes/Helpers;
+			sourceTree = "<group>";
+		};
+		239799FB2017CEBE001C3C09 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				239799FC2017CEBE001C3C09 /* UIColor+FlatColors.swift */,
+				239799FD2017CEBE001C3C09 /* UIColor+Hex.swift */,
+				239799FE2017CEBE001C3C09 /* UIImage+Background.swift */,
+				239799FF2017CEBE001C3C09 /* UILabel+Color.swift */,
+				23979A172017D507001C3C09 /* CALayer+Gradient.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		23979A002017CEBE001C3C09 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				23979A012017CEBE001C3C09 /* CoreData */,
+				23979A042017CEBE001C3C09 /* JSONReder */,
+				23979A092017CEBE001C3C09 /* QuandlAPI */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		23979A012017CEBE001C3C09 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				23979A022017CEBE001C3C09 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		23979A042017CEBE001C3C09 /* JSONReder */ = {
+			isa = PBXGroup;
+			children = (
+				23979A052017CEBE001C3C09 /* JSONReader.swift */,
+			);
+			path = JSONReder;
+			sourceTree = "<group>";
+		};
+		23979A092017CEBE001C3C09 /* QuandlAPI */ = {
+			isa = PBXGroup;
+			children = (
+				23979A0A2017CEBE001C3C09 /* QuandlAPIClient.swift */,
+				23979A0B2017CEBE001C3C09 /* QuandlAPIRequest.swift */,
+			);
+			path = QuandlAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,10 +582,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-inverstors-social-network/Pods-inverstors-social-network-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,10 +632,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D22E542016AF3B003D5863 /* DailyQuoteSummary+CoreDataProperties.swift in Sources */,
+				2384B5802012D81000EB4320 /* InstrumentTableViewCell.swift in Sources */,
 				2384B54E2012CD5400EB4320 /* inverstors_social_network.xcdatamodeld in Sources */,
+				23D22E552016AF3B003D5863 /* StockQuotePeriod+CoreDataProperties.swift in Sources */,
+				23D22E532016AF3B003D5863 /* DailyQuoteSummary+CoreDataClass.swift in Sources */,
+				23979A0D2017CEBE001C3C09 /* UIColor+Hex.swift in Sources */,
+				23979A182017D507001C3C09 /* CALayer+Gradient.swift in Sources */,
 				2384B5462012CD5400EB4320 /* AppDelegate.swift in Sources */,
+				23979A122017CEBE001C3C09 /* JSONReader.swift in Sources */,
+				23979A102017CEBE001C3C09 /* CoreDataStack.swift in Sources */,
+				23979A0F2017CEBE001C3C09 /* UILabel+Color.swift in Sources */,
+				23979A0C2017CEBE001C3C09 /* UIColor+FlatColors.swift in Sources */,
 				2384B57E2012D06800EB4320 /* InstrumentsTableViewController.swift in Sources */,
 				2384B57C2012D03800EB4320 /* InstrumentMarketPriceViewController.swift in Sources */,
+				23979A132017CEBE001C3C09 /* QuandlAPIClient.swift in Sources */,
+				23D22E522016AF3B003D5863 /* StockQuotePeriod+CoreDataClass.swift in Sources */,
+				23979A0E2017CEBE001C3C09 /* UIImage+Background.swift in Sources */,
+				23979A142017CEBE001C3C09 /* QuandlAPIRequest.swift in Sources */,
+				23979A162017CEEB001C3C09 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

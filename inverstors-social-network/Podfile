@@ -8,6 +8,7 @@ target 'inverstors-social-network' do
   # Pods for inverstors-social-network
 
   pod 'SwiftChart'
+  pod 'NVActivityIndicatorView'
 
   target 'inverstors-social-networkTests' do
     inherit! :search_paths
